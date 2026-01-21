@@ -62,7 +62,7 @@ export const ChessBoard = ({
                 >
                   <div className="w-full justify-center flex h-full">
                     <div className="h-full justify-center flex flex-col">
-                      {square ? <img className="w-4" src={`/${square?.color === "b" ?
+                      {square ? <img className="w-4" src={`/chessAssets/${square?.color === "b" ?
                         square?.type : `${square?.type?.toUpperCase()} copy`}.png`} /> : null }
                     </div>
                   </div>
